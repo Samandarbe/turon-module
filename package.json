@@ -1,23 +1,12 @@
 {
-  "name": "@pixel/turon-module",
+  "name": "common-lib",
   "version": "1.0.0",
-    "private": false,
-  "description": "",
-   "main": "src/dist/index.js",
-  "types": "src/dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@nestjs/mongoose": "^11.0.4",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.4",
-    "mongoose": "^9.2.2"
+    "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.2.0"
   }
 }
