@@ -9,18 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CreateCartDto = void 0;
+exports.CreateCardDto = void 0;
 const class_validator_1 = require("class-validator");
-class CreateCartDto {
+class CreateCardDto {
 }
-exports.CreateCartDto = CreateCartDto;
+exports.CreateCardDto = CreateCardDto;
 __decorate([
     (0, class_validator_1.IsNotEmpty)(),
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
-], CreateCartDto.prototype, "card_number", void 0);
+], CreateCardDto.prototype, "card_number", void 0);
 __decorate([
     (0, class_validator_1.IsNotEmpty)(),
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
-], CreateCartDto.prototype, "card_expire", void 0);
+], CreateCardDto.prototype, "card_expire", void 0);

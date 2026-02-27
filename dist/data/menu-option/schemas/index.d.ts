@@ -1,1 +1,0 @@
-export { ModelMenuOption, ModelMenuOptionSchema } from './menu-option.schema';

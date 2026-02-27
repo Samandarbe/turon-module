@@ -2,6 +2,7 @@ export interface Lang {
   ru: string;
   en: string;
   uz: string;
+  zh: string,
 }
 
 export const LangObj = {

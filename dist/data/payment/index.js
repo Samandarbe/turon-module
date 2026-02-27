@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ClickTransactionSchema = exports.ClickTransaction = exports.Payment = exports.PaymeStatus = exports.ModelPaymeSchema = exports.ModelPayme = exports.CreateCartDto = void 0;
+exports.ClickTransactionSchema = exports.ClickTransaction = exports.Payment = exports.PaymeStatus = exports.ModelPaymeSchema = exports.ModelPayme = exports.CreateCardDto = void 0;
 var create_cart_dto_1 = require("./dto/create-cart.dto");
-Object.defineProperty(exports, "CreateCartDto", { enumerable: true, get: function () { return create_cart_dto_1.CreateCartDto; } });
+Object.defineProperty(exports, "CreateCardDto", { enumerable: true, get: function () { return create_cart_dto_1.CreateCardDto; } });
 var payme_transaction_schema_1 = require("./schemas/payme-transaction.schema");
 Object.defineProperty(exports, "ModelPayme", { enumerable: true, get: function () { return payme_transaction_schema_1.ModelPayme; } });
 Object.defineProperty(exports, "ModelPaymeSchema", { enumerable: true, get: function () { return payme_transaction_schema_1.ModelPaymeSchema; } });
