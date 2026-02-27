@@ -64,6 +64,7 @@ export {
   CreateCustomerDto,
   ModelCustomers,
   ModelCustomersSchema,
+  ModelPhotoSearchProducts,ModelPhotoSearchProductsSchema,ModelRecommentProducts,ModelRecommentProductsSchema
 } from "./customer";
 export {
   UpdateCustomerCompanyDto,
@@ -113,7 +114,7 @@ export {ModelOrder,ModelOrderSchema,ModelOrderProduct,ModelOrderProductSchema,Up
 export {ModelOrderInfo,ModelOrderInfoSchema,CreateOrderInfoDto,UpdateOrderInfoDto} from "./order-info";
 export {ModelOrderWholesale,ModelOrderWholesaleSchema,UpdateOrderWholesaleDto,CreateOrderWholesaleDto} from "./order-wholesale";
 export {ModelPayme,ModelPaymeSchema,ClickTransaction,ClickTransactionSchema,CreateCardDto} from "./payment";
-export {UpdateProductDto,CreateProductDto,ModelProduct,ModelProductInfo,ModelProductInfoSchema,ModelProductSchema,ModelSubProduct} from "./product";
+export {UpdateProductDto,CreateProductDto,ModelProduct,ModelProductInfo,ModelProductInfoSchema,ModelSubProductSchema,ModelProductSchema,ModelSubProduct} from "./product";
 export {ModelProductImage,ModelProductImageSchema,UpdateProductImageDto,CreateProductImageDto} from "./product-image";
 export {CreateProductOptionDto,UpdateProductOptionDto,ModelProductOption,ModelProductOptionSchema} from "./product-option";
 export {ModelPickupPoint,ModelPickupPointSchema} from "./pickup-point";

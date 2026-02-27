@@ -24,6 +24,10 @@ export {
 } from "./enums";
 
 export {
+  ModelPhotoSearchProducts,
+  ModelPhotoSearchProductsSchema,
+  ModelRecommentProducts,
+  ModelRecommentProductsSchema,
   CreateAddressDto,
   UpdateAddressDto,
   ModelAddress,
@@ -52,6 +56,7 @@ export {
   ModelBuyCoinSchema,
   ModelCart,
   ModelCartSchema,
+  ModelSubProductSchema,
   CreateCartDto,
   UpdateCartDto,
   ModelClientDevice,

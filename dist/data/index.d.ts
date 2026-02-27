@@ -15,7 +15,7 @@ export { CreateCommentDto, UpdateCommentDto, ModelComments, ModelCommentsSchema,
 export { ModelComparison, ModelComparisonSchema, CreateComparisonDto, UpdateComparisonDto, } from "./comparison";
 export { ModelContact, ModelContactSchema, UpdateContactDto, CreateContactDto, } from "./contact";
 export { ModelCountry, ModelCountrySchema } from "./country";
-export { UpdateCustomerDto, CreateCustomerDto, ModelCustomers, ModelCustomersSchema, } from "./customer";
+export { UpdateCustomerDto, CreateCustomerDto, ModelCustomers, ModelCustomersSchema, ModelPhotoSearchProducts, ModelPhotoSearchProductsSchema, ModelRecommentProducts, ModelRecommentProductsSchema } from "./customer";
 export { UpdateCustomerCompanyDto, CreateCustomerCompanyDto, ModelCustomerCompany, ModelCustomerCompanySchema, } from "./customer-company";
 export { ModelDeviceData, ModelDeviceDataSchema } from "./device-data";
 export { UpdateDistrictDto, CreateDistrictDto, ModelDistricts, ModelDistrictsSchema, } from "./district";
@@ -37,7 +37,7 @@ export { ModelOrder, ModelOrderSchema, ModelOrderProduct, ModelOrderProductSchem
 export { ModelOrderInfo, ModelOrderInfoSchema, CreateOrderInfoDto, UpdateOrderInfoDto } from "./order-info";
 export { ModelOrderWholesale, ModelOrderWholesaleSchema, UpdateOrderWholesaleDto, CreateOrderWholesaleDto } from "./order-wholesale";
 export { ModelPayme, ModelPaymeSchema, ClickTransaction, ClickTransactionSchema, CreateCardDto } from "./payment";
-export { UpdateProductDto, CreateProductDto, ModelProduct, ModelProductInfo, ModelProductInfoSchema, ModelProductSchema, ModelSubProduct } from "./product";
+export { UpdateProductDto, CreateProductDto, ModelProduct, ModelProductInfo, ModelProductInfoSchema, ModelSubProductSchema, ModelProductSchema, ModelSubProduct } from "./product";
 export { ModelProductImage, ModelProductImageSchema, UpdateProductImageDto, CreateProductImageDto } from "./product-image";
 export { CreateProductOptionDto, UpdateProductOptionDto, ModelProductOption, ModelProductOptionSchema } from "./product-option";
 export { ModelPickupPoint, ModelPickupPointSchema } from "./pickup-point";

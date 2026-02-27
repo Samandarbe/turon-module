@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ModelCustomersSchema = exports.ModelCustomers = exports.UpdateCustomerDto = exports.CreateCustomerDto = void 0;
+exports.ModelRecommentProductsSchema = exports.ModelRecommentProducts = exports.ModelPhotoSearchProductsSchema = exports.ModelPhotoSearchProducts = exports.ModelCustomersSchema = exports.ModelCustomers = exports.UpdateCustomerDto = exports.CreateCustomerDto = void 0;
 var customer_create_dto_1 = require("./dto/customer-create.dto");
 Object.defineProperty(exports, "CreateCustomerDto", { enumerable: true, get: function () { return customer_create_dto_1.CreateCustomerDto; } });
 var customer_update_dto_1 = require("./dto/customer-update.dto");
@@ -8,3 +8,7 @@ Object.defineProperty(exports, "UpdateCustomerDto", { enumerable: true, get: fun
 var customer_schema_1 = require("./schemas/customer.schema");
 Object.defineProperty(exports, "ModelCustomers", { enumerable: true, get: function () { return customer_schema_1.ModelCustomers; } });
 Object.defineProperty(exports, "ModelCustomersSchema", { enumerable: true, get: function () { return customer_schema_1.ModelCustomersSchema; } });
+Object.defineProperty(exports, "ModelPhotoSearchProducts", { enumerable: true, get: function () { return customer_schema_1.ModelPhotoSearchProducts; } });
+Object.defineProperty(exports, "ModelPhotoSearchProductsSchema", { enumerable: true, get: function () { return customer_schema_1.ModelPhotoSearchProductsSchema; } });
+Object.defineProperty(exports, "ModelRecommentProducts", { enumerable: true, get: function () { return customer_schema_1.ModelRecommentProducts; } });
+Object.defineProperty(exports, "ModelRecommentProductsSchema", { enumerable: true, get: function () { return customer_schema_1.ModelRecommentProductsSchema; } });
