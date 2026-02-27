@@ -1,1 +1,0 @@
-export { ModelWholesaleCollection, ModelWholesaleCollectionSchema } from './schemas/wholesale-collection.schema';

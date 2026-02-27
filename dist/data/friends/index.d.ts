@@ -1,1 +1,0 @@
-export { ModelFriends, FriendsSchema } from './schemas/friends.schema';

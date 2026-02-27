@@ -1,1 +1,0 @@
-export { ModelVariationSelect, ModelVariationSelectSchema } from './schemas/variation-select.schema';

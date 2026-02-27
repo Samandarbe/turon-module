@@ -1,1 +1,0 @@
-export { ModelCoinOrder, ModelCoinOrderSchema } from './schemas/coin-order.schema';

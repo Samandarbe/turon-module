@@ -1,1 +1,0 @@
-export { ModelCoinHistory, ModelCoinHistorySchema } from './schemas/coin.schema';

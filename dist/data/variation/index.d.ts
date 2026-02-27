@@ -1,1 +1,0 @@
-export { ModelVariation, ModelVariationSchema } from './schemas/variation.schema';

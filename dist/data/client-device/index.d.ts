@@ -1,1 +1,0 @@
-export { ModelClientDevice, ModelClientDeviceSchema } from './schemas/client.device.shema';

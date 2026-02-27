@@ -1,1 +1,0 @@
-export { ModelRetailCollection, ModelRetailCollectionSchema } from './schemas/retail-collection.schema';

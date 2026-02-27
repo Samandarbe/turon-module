@@ -1,1 +1,0 @@
-export { ModelPickupPointTown, ModelPickupPointTownSchema } from './schemas/pickup-point-town.schema';

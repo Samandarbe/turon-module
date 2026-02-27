@@ -1,1 +1,0 @@
-export { ModelCountry, ModelCountrySchema } from './schemas/country.schema';

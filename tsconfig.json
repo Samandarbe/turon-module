@@ -1,14 +1,36 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2020",
+//     "module": "CommonJS",
+//     "declaration": true,
+//     "outDir": "dist",
+//       "types": ["node"],
+//     "strict": true,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "strictPropertyInitialization": false,
+//     "baseUrl": ".",
+//     "paths": {
+//       "src/*": ["src/*"]
+//     }
+//   },
+// }
+
 {
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "declaration": true,
-    "outDir": "dist",
-      "types": ["node"],
+    "lib": [
+      "ES2021",
+      "DOM"
+    ],
+    "skipLibCheck": true,
     "strict": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
       "src/*": ["src/*"]
@@ -16,7 +38,6 @@
   },
   "include": ["src"]
 }
-
 // {
 //   "compilerOptions": {
 //     "target": "ES2020",
