@@ -4,9 +4,15 @@
     "module": "CommonJS",
     "declaration": true,
     "outDir": "dist",
+      "types": ["node"],
     "strict": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }

@@ -1,9 +1,9 @@
 {
   "name": "@pixel/turon-module",
   "version": "1.0.0",
-    "private": false,
+  "private": false,
   "description": "",
-   "main": "dist/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf dist && tsc"
@@ -13,11 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "@nestjs/mongoose": "^11.0.4",
+    "@nestjs/swagger": "^11.2.6",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.4",
     "mongoose": "^9.2.2"
   },
   "devDependencies": {
+    "@types/node": "^25.3.2",
     "typescript": "^5.9.3"
   }
 }

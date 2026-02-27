@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.VariationType = exports.StatusType = exports.SaleType = exports.Role = exports.UNIT = exports.PRICE_TYPE = exports.OrderProductStatus = exports.OrderWholesaleStatus = exports.OrderInfoStatus = exports.OrderStatus = exports.OptionType = exports.NotificationType = exports.MenuType = exports.ProductType = exports.MenuDataType = exports.FriendInviteStatus = exports.DeviceStatus = exports.CustomerCompanyStatus = exports.CommentStatus = exports.CoinHistoryType = exports.CoinHistoryInReason = exports.Status = void 0;
+exports.ClickTransactionState = exports.ClickError = exports.ClickAction = exports.VariationType = exports.StatusType = exports.SaleType = exports.Role = exports.UNIT = exports.PRICE_TYPE = exports.OrderProductStatus = exports.OrderWholesaleStatus = exports.OrderInfoStatus = exports.OrderStatus = exports.OptionType = exports.NotificationType = exports.MenuType = exports.ProductType = exports.MenuDataType = exports.FriendInviteStatus = exports.DeviceStatus = exports.CustomerCompanyStatus = exports.CommentStatus = exports.CoinHistoryType = exports.CoinHistoryInReason = exports.Status = void 0;
 var app_setting_status_enum_1 = require("./app-setting.status.enum");
 Object.defineProperty(exports, "Status", { enumerable: true, get: function () { return app_setting_status_enum_1.Status; } });
 var coin_types_1 = require("./coin-types");
@@ -39,3 +39,7 @@ var status_enum_1 = require("./status.enum");
 Object.defineProperty(exports, "StatusType", { enumerable: true, get: function () { return status_enum_1.StatusType; } });
 var variation_type_enum_1 = require("./variation-type.enum");
 Object.defineProperty(exports, "VariationType", { enumerable: true, get: function () { return variation_type_enum_1.VariationType; } });
+var click_errors_1 = require("./click.errors");
+Object.defineProperty(exports, "ClickAction", { enumerable: true, get: function () { return click_errors_1.ClickAction; } });
+Object.defineProperty(exports, "ClickError", { enumerable: true, get: function () { return click_errors_1.ClickError; } });
+Object.defineProperty(exports, "ClickTransactionState", { enumerable: true, get: function () { return click_errors_1.ClickTransactionState; } });

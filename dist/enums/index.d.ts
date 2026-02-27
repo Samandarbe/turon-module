@@ -14,3 +14,4 @@ export { Role } from './role.enum';
 export { SaleType } from './sale-type.enum';
 export { StatusType } from './status.enum';
 export { VariationType } from './variation-type.enum';
+export { ClickAction, ClickError, ClickTransactionState } from './click.errors';
